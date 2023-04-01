@@ -6,6 +6,7 @@ License:    MIT
 URL:        https://gitlab.freedesktop.org/xorg/proto/xcbproto
 Source0:    https://gitlab.freedesktop.org/xorg/proto/xcbproto/-/archive/%{name}-%{version}/xcbproto-%{name}-%{version}.tar.bz2
 BuildArch:  noarch
+Requires:   python3-base
 BuildRequires:  autoconf
 BuildRequires:  automake
 BuildRequires:  make
